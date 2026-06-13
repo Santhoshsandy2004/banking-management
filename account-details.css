@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(13,71,161,0.85),
+    rgba(21,101,192,0.85));
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:20px;
+}
+
+.dashboard-container{
+    width:900px;
+}
+
+.profile-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    margin-bottom:25px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.profile-icon{
+    font-size:70px;
+    color:#0d47a1;
+    margin-bottom:10px;
+}
+
+.profile-card h2{
+    color:#333;
+}
+
+.profile-card p{
+    color:#777;
+}
+
+.account-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-header{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    color:#0d47a1;
+    margin-bottom:25px;
+}
+
+.card-header i{
+    font-size:28px;
+}
+
+.detail-row{
+    display:flex;
+    justify-content:space-between;
+
+    padding:15px 0;
+
+    border-bottom:1px solid #ddd;
+}
+
+.detail-row span{
+    color:#666;
+}
+
+.detail-row strong{
+    color:#222;
+}
+
+.balance{
+    margin-top:10px;
+    font-size:22px;
+    color:green;
+}
+
+.action-section{
+    margin-top:25px;
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.action-btn{
+    text-decoration:none;
+
+    background:#ff9800;
+    color:white;
+
+    padding:15px 25px;
+    border-radius:10px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.action-btn:hover{
+    transform:translateY(-4px);
+    background:#fb8c00;
+}
